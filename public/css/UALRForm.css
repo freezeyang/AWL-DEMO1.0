@@ -1,0 +1,221 @@
+/* .button
+        {
+            width: 85px;
+            height: 46px;
+        } */
+        
+        
+        .OutsideTable
+        {
+            width: 960px;
+            margin-left: 0px;
+            margin-right: 0px;
+    margin-bottom: 0px;
+}
+        .style3
+        {
+            width: 400px;
+            height: 20px;
+        }
+        
+        .style5
+        {
+            width: 400px;
+            height: 64px;
+        }
+        .textboxstyle
+        {
+            
+            font-size: X-Large;
+            background-color:#FFFFFF;
+            
+        }
+        .bg1
+        {
+            background-color:#FFFFFF;
+           
+           
+        }
+            .bg2
+       {
+                background-color:#333333;
+        }
+        
+         .interseTable
+        {
+            width: 400px;
+            height: 8px;
+        }
+        
+        
+/* button 
+---------------------------------------------- */
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0 2px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.bigrounded {
+	-webkit-border-radius: 2em;
+	-moz-border-radius: 2em;
+	border-radius: 2em;
+}
+.medium {
+	font-size: 12px;
+	padding: .4em 1.5em .42em;
+}
+.small {
+	font-size: 11px;
+	padding: .2em 1em .275em;
+}
+
+/* blue */
+.blue {
+	color: #d9eef7;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#00adee', endColorstr='#0078a5');
+}
+.blue:hover {
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0095cc', endColorstr='#00678e');
+}
+.blue:active {
+	color: #80bed6;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0078a5), to(#00adee));
+	background: -moz-linear-gradient(top,  #0078a5,  #00adee);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#0078a5', endColorstr='#00adee');
+}
+
+.tdstyles
+{
+	font-family: "Times New Roman", Times, serif;
+	font-size:x-large;
+ }
+
+/*CSS Digg style pagination*/
+
+DIV.digg {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 3px; PADDING-TOP: 3px; TEXT-ALIGN: center
+}
+DIV.digg A {
+	BORDER-RIGHT: #aaaadd 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #aaaadd 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; MARGIN: 2px; BORDER-LEFT: #aaaadd 1px solid; COLOR: #000099; PADDING-TOP: 2px; BORDER-BOTTOM: #aaaadd 1px solid; TEXT-DECORATION: none
+}
+DIV.digg A:hover {
+	BORDER-RIGHT: #000099 1px solid; BORDER-TOP: #000099 1px solid; BORDER-LEFT: #000099 1px solid; COLOR: #000; BORDER-BOTTOM: #000099 1px solid
+}
+DIV.digg A:active {
+	BORDER-RIGHT: #000099 1px solid; BORDER-TOP: #000099 1px solid; BORDER-LEFT: #000099 1px solid; COLOR: #000; BORDER-BOTTOM: #000099 1px solid
+}
+DIV.digg SPAN.current {
+	BORDER-RIGHT: #000099 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #000099 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; MARGIN: 2px; BORDER-LEFT: #000099 1px solid; COLOR: #fff; PADDING-TOP: 2px; BORDER-BOTTOM: #000099 1px solid; BACKGROUND-COLOR: #000099
+}
+DIV.digg SPAN.disabled {
+	BORDER-RIGHT: #eee 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #eee 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; MARGIN: 2px; BORDER-LEFT: #eee 1px solid; COLOR: #ddd; PADDING-TOP: 2px; BORDER-BOTTOM: #eee 1px solid
+}
+
+/* The CSS Code for the menu starts here */
+			#menu {
+				font-family: Arial, sans-serif;
+				font-weight: bold;
+				text-transform: uppercase;
+				margin: 0px 0;
+				padding: 0;
+				list-style-type: none;
+				background-color: #eee;
+				font-size: 13px;
+				height: 40px;
+				border-top: 2px solid #eee;
+				border-bottom: 2px solid #ccc;
+			}
+			#menu li {
+				float: left;
+				margin: 0;				
+			}
+			#menu li a {
+				text-decoration: none;
+				display: block;
+				padding: 0 20px;
+				line-height: 40px;
+				color: #666;
+			}
+			#menu li a:hover, #menu li.active a {
+				background-color: #f5f5f5;
+				border-bottom: 2px solid #DDD;
+				color: #999;
+			}
+			#menu_wrapper ul {margin-left: 12px;}
+			#menu_wrapper {padding: 0 16px 0 0; background: url(images/grey.png) no-repeat right;}
+			#menu_wrapper div {
+	float: left;
+	height: inherit;
+	width: 12px;
+	background: url(images/grey.png) no-repeat left;
+}
+			
+			/* Black Menu */
+			#menu_wrapper.black ul {
+				border-top: 2px solid #333;
+				border-bottom: 2px solid #000;
+				background: #333;}
+			#menu_wrapper.black a {color: #CCC;}
+			#menu_wrapper.black li a:hover, #menu_wrapper.black li.active a {color: #999; background: #555; border-bottom: 2px solid #444;}
+			#menu_wrapper.black {background: url(images/black.png) no-repeat right;}
+			#menu_wrapper.black div {background: url(images/black.png) no-repeat left;}
+			
+			/* Blue Menu */
+			#menu_wrapper.blue ul {
+				border-top: 2px solid #356AA0;
+				border-bottom: 2px solid #204061;
+				background: #356AA0;}
+			#menu_wrapper.blue a {color: #fff;}
+			#menu_wrapper.blue li a:hover, #menu_wrapper.blue li.active a {color: #90CDFF; background: #3D7BBB; border-bottom: 2px solid #356AA0;}
+			#menu_wrapper.blue {background: url(images/blue.png) no-repeat right;}
+			#menu_wrapper.blue div {background: url(images/blue.png) no-repeat left;}
+			
+			/* Red Menu */
+			#menu_wrapper.red ul {
+				border-top: 2px solid #660000;
+				border-bottom: 2px solid #450000;
+				background: #660000;}
+			#menu_wrapper.red a {color: #fff;}
+			#menu_wrapper.red li a:hover, #menu_wrapper.red li.active a {color: #F27F84; background: #990000; border-bottom: 2px solid #660000;}
+			#menu_wrapper.red {background: url(images/red.png) no-repeat right;}
+			#menu_wrapper.red div {background: url(images/red.png) no-repeat left;}
+			
+			/* Orange Menu */
+			#menu_wrapper.orange ul {
+				border-top: 2px solid #d15600;
+				border-bottom: 2px solid #B44500;
+				background: #d15600;}
+			#menu_wrapper.orange a {color: #fff;}
+			#menu_wrapper.orange li a:hover, #menu_wrapper.orange li.active a {color: #FA9B5B; background: #B44500; border-bottom: 2px solid #d15600;}
+			#menu_wrapper.orange {background: url(images/orange.png) no-repeat right;}
+			#menu_wrapper.orange div {background: url(images/orange.png) no-repeat left;}
